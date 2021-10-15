@@ -1,4 +1,6 @@
 /// <reference types="cypress" />
+/// <reference path="../support/commands.d.ts" />
+
 
 it('successfully signs up using confirmation code sent via email', () => {
 	const faker = require('faker')
