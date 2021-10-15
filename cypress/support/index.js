@@ -13,12 +13,13 @@
 // https://on.cypress.io/configuration
 // ***********************************************************
 
+// Alternatively you can use CommonJS syntax:
+// require('./commands')
+require('cypress-grep')()
+
 // Import commands.js using ES2015 syntax:
 import './commands'
 import 'cypress-mailosaur'
 import 'cypress-file-upload'
 import 'cypress-iframe'
 
-// Alternatively you can use CommonJS syntax:
-// require('./commands')
-require('cypress-grep')()
