@@ -24,7 +24,7 @@ Before running the tests, some environment variables need to be set up.
 Make a copy of the [`cypress.env.example.json`](./cypress.env.example.json) file as `cypress.env.json`, and set the appropriate values for all the variables.
 
 **Note:** `cypress.env.json` file is not tracked by git.
-
+ teste 
 ## Running the tests
 
 In this project, you can run tests in interactive and headless modes, and on desktop and tablet viewports.
